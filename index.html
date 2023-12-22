@@ -1,52 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="../FAQ-accordion/style/style.css">
+
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="main">
+      
+      <div class="msg">
+        <!-- Sign-up form start -->
 
-  <!-- Sign-up form start -->
+      <h1>Stay updated!</h1>
 
-  Stay updated!
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
 
-  Join 60,000+ product managers receiving monthly updates on:
+      <div class="list">
+        <div class="col">
+          <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>Product discovery and building what matters</p>
+        </div>
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+        <div class="col">
+          <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>Measuring to ensure updates are a success</p>
+        </div>
 
-  Email address
-  email@company.com
+        <div class="col">
+          <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>And much more!</p>
+        </div>
+      </div>
 
-  Subscribe to monthly newsletter
+        
+      
+      
 
-  <!-- Sign-up form end -->
+      <form action="">
+        <label for=""><b>Email address</b></label><br>
+        <input id="text-form" type="text" placeholder="email@company.com"/>
+      </form><br>
+      
+      <button>Subscribe to monthly newsletter</button><br>
 
-  <!-- Success message start -->
+      <!-- Sign-up form end -->
 
-  Thanks for subscribing!
+      <!-- Success message start -->
 
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
+      Thanks for subscribing!
 
-  Dismiss message
+      A confirmation email has been sent to ash@loremcompany.com. 
+      Please open it and click the button inside to confirm your subscription.
 
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      Dismiss message
+
+      <!-- Success message end -->
+
+      </div>
+
+      <!-- div entre images-->
+
+      <div class="img">
+        <img src="../FAQ-accordion/assets/images/illustration-sign-up-desktop.svg" alt="">
+      </div>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+  </body>
 </html>
