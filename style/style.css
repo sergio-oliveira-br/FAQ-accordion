@@ -11,17 +11,26 @@ body
       grid-template-columns: auto auto;
       margin: 10px;
       width: 1200px;
+      height: 600px;
+      top: 120px;
+      left: 120px;
+      position: relative;
 }
 
 .msg
 {
       padding-left: 10%;
-
 }
 
 .img
 {
       padding: 20px;
+      
+}
+
+.big-img
+{
+      height: 550px;
 }
 
 h1
@@ -29,11 +38,7 @@ h1
       color: #333A4B;
 }
 
-.button
-{
-      background-color:#333A4B;
-      color: white;
-}
+
 
 #text-form
 {
@@ -48,33 +53,31 @@ h1
 .list
 {
       display:grid;
-      grid-template-rows: repeat(6, 1fr);
+      grid-template-rows: auto auto;
 }
 
 .col
 {
       display: inline-flex;
-      
 }
 
-.col p
+.col img
 {
-      padding-left: 2%;
-      text-align: center;
+      padding-right: 2%;
 }
-
+ 
+ 
 
 
 button
 {
       width: 50%;
       height: 40px;
-      font-size: 18px;
+      font-size: 17px;
       background-color: #333A4B;
       cursor: pointer;
       color: white;
 }
-
 
 /* FOOTER */
 .attribution

@@ -2,20 +2,23 @@
 <html lang="en">
   <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="../FAQ-accordion/style/style.css">
+  <script src="../FAQ-accordion/script/script.js" ></script>
 
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
   </head>
   <body>
-    <div class="main">
-      
-      <div class="msg">
-        <!-- Sign-up form start -->
+    
+    <div class="main">  
 
+      <!-- Sign-up form start -->
+
+      <div class="msg">
       <h1>Stay updated!</h1>
 
       <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -32,38 +35,24 @@
         <div class="col">
           <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>And much more!</p>
         </div>
-      </div>
-
-        
+      </div><br><br>
       
-      
+      <!-- Form -->
 
-      <form action="">
+      <form class="myEmail" action="">
         <label for=""><b>Email address</b></label><br>
-        <input id="text-form" type="text" placeholder="email@company.com"/>
+        <input id="text-form" type="email" placeholder="email@company.com"/>
+        <span id="emailError" style="color: red;"></span><br>
       </form><br>
       
-      <button>Subscribe to monthly newsletter</button><br>
-
-      <!-- Sign-up form end -->
-
-      <!-- Success message start -->
-
-      Thanks for subscribing!
-
-      A confirmation email has been sent to ash@loremcompany.com. 
-      Please open it and click the button inside to confirm your subscription.
-
-      Dismiss message
-
-      <!-- Success message end -->
+      <button onclick="subscrible()" >Subscribe to monthly newsletter</button>
 
       </div>
 
       <!-- div entre images-->
 
       <div class="img">
-        <img src="../FAQ-accordion/assets/images/illustration-sign-up-desktop.svg" alt="">
+        <img class="big-img" src="../FAQ-accordion/assets/images/illustration-sign-up-desktop.svg" alt="">
       </div>
 
       <div class="attribution">
