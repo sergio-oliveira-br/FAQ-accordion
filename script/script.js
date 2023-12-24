@@ -24,4 +24,34 @@ function subscrible()
       }
 }
 
+//POPUP
+
+window.addEventListener("load", function ()
+{
+      setTimeout(function open(event)
+      {
+            document.querySelector(".popup").style.display = "block";
+      }, 2000);
+});
+
+
+//CLOSE
+document.addEventListener("DOMContentLoaded", 
+function()
+{
+      console.log("DOM Loaded");
+  
+      document.querySelector("#close").addEventListener("click", 
+      function()
+      {
+            window.location.href = "../Pages/Game.html"; 
+             document.querySelector(".popup").style.display = "none"; 
+      });
+      {
+            document.querySelector(".popup").style.display = "none";
+      };
+});
+
+
+
 

@@ -13,39 +13,45 @@
 
   </head>
   <body>
+    <!-- POPUPS -->
+		<div class="popup">
+			<button id="close">&times;</button>
+			<h4>
+				Please open it and click the button
+        inside to confirm your subscription.
+      </h4>
+		</div>
+
+    <!-- Sign-up form start -->
     
     <div class="main">  
-
-      <!-- Sign-up form start -->
-
       <div class="msg">
-      <h1>Stay updated!</h1>
+        <br><h1>Stay updated!</h1><br><br>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p><br><br>
 
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <div class="list">
+            <div class="col">
+              <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>Product discovery and building what matters</p>
+            </div><br>
 
-      <div class="list">
-        <div class="col">
-          <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>Product discovery and building what matters</p>
-        </div>
+            <div class="col">
+             <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>Measuring to ensure updates are a success</p>
+            </div><br>
 
-        <div class="col">
-          <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>Measuring to ensure updates are a success</p>
-        </div>
-
-        <div class="col">
-          <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>And much more!</p>
-        </div>
-      </div><br><br>
+            <div class="col">
+              <img src="../FAQ-accordion/assets/images/icon-list.svg" alt=""><p>And much more!</p>
+            </div>
+          </div><br><br>
       
       <!-- Form -->
 
-      <form class="myEmail" action="">
-        <label for=""><b>Email address</b></label><br>
-        <input id="text-form" type="email" placeholder="email@company.com"/>
-        <span id="emailError" style="color: red;"></span><br>
-      </form><br>
+        <form class="myEmail" action="">
+          <label for=""><b>Email address</b></label><br>
+          <input id="text-form" type="email" placeholder="email@company.com"/>
+          <span id="emailError" style="color: red;"></span><br>
+        </form><br>
       
-      <button onclick="subscrible()" >Subscribe to monthly newsletter</button>
+        <button onclick="subscrible()" >Subscribe to monthly newsletter</button>
 
       </div>
 
@@ -54,10 +60,10 @@
       <div class="img">
         <img class="big-img" src="../FAQ-accordion/assets/images/illustration-sign-up-desktop.svg" alt="">
       </div>
-
+    
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="https://github.com/sergio-oliveira-br">Sergio Oliveira</a>.
       </div>
     </div>
   </body>

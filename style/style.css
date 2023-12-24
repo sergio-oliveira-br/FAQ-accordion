@@ -10,10 +10,10 @@ body
       display: grid;
       grid-template-columns: auto auto;
       margin: 10px;
-      width: 1200px;
+      width: 900px;
       height: 600px;
       top: 120px;
-      left: 120px;
+      left: 270px;
       position: relative;
 }
 
@@ -44,7 +44,7 @@ h1
 {
       border-color: #333A4B;
       border-radius: 3%;
-      width: 49%;
+      width: 70%;
       height: 35px;
       font-size: 18px;
       
@@ -71,7 +71,7 @@ h1
 
 button
 {
-      width: 50%;
+      width: 70%;
       height: 40px;
       font-size: 17px;
       background-color: #333A4B;
@@ -79,13 +79,68 @@ button
       color: white;
 }
 
+*,
+*::before,
+*::after
+{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+/* POPUP */
+
+.popup
+{
+      background-color:#333A4B;
+      width: 450px;
+      padding: 30px 40px;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      border-radius: 3%;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: none;
+      color: white;
+      z-index: 1;
+}
+.popup button
+{
+      display: block;
+      margin: 0 0 20px auto;
+      background-color: transparent;
+      font-size: 30px;
+      color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      width: 0;
+      height: 40px;
+}
+
+.popup p
+{
+      font-size: 14px;
+      text-align: justify;
+      margin: 20px 0;
+      
+}
+
 /* FOOTER */
 .attribution
 { 
-      font-size: 11px; text-align: center; 
+      font-size: 11px; 
+      text-align: center; 
+      color: black;
+      position: relative;
+      top: -10px;
+      right: -435px;
 }
+
 
 .attribution a 
 { 
-      color: hsl(228, 45%, 44%); 
+      color: hsl(228, 45%, 44%);
+      top: 10px; 
 }
