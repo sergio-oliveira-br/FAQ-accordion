@@ -44,7 +44,7 @@ function()
       document.querySelector("#close").addEventListener("click", 
       function()
       {
-            window.location.href = "../Pages/Game.html"; 
+            window.location.href = ""; 
              document.querySelector(".popup").style.display = "none"; 
       });
       {
